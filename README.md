@@ -1,1 +1,1 @@
-# self-hosting-theme
+# Self Hosting Front Page Theme
