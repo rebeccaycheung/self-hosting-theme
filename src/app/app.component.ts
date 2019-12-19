@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'title';
 
-  links = ['Notion', 'Plex', 'Firefly'];
+  links = [
+    {name: 'Notion', image: '../assets/images/notion.png'},
+    {name: 'Plex', image: '../assets/images/plex.png'},
+    {name: 'Firefly', image: '../assets/images/firefly.png'}
+  ];
 
 }

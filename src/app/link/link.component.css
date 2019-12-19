@@ -3,3 +3,9 @@
     padding: 1.5rem;
     width: 150px;
 }
+
+img {
+    width: 100px;
+    border: 1px solid #111;
+    border-radius: 100px;
+}
