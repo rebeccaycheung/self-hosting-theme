@@ -2,3 +2,8 @@
     font-family: Montserrat;
     src: url("/src/assets/fonts/Montserrat-Regular.ttf") format("truetype");
 }
+
+body {
+    background-color: rgb(45, 42, 70);
+    color: #ffffff;
+}

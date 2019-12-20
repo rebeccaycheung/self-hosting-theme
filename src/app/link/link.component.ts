@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class LinkComponent implements OnInit {
   @Input('heading') headingName: string;
-  @Input() imageSrc: string;
+  @Input() icon: string;
 
   constructor() { }
 
