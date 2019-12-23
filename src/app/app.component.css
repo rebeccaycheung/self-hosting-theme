@@ -1,13 +1,14 @@
 .container {
     font-family: Montserrat;
-    text-align: center;
+    text-align: left;
+    
 }
 
 .link-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 /* .item {
