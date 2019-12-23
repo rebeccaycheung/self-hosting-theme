@@ -1,9 +1,10 @@
 .title {
-    padding: 1.5rem 1.5rem 1.5rem 0rem;
-    width: 150px;
+    padding: 1.5rem 2rem 1.5rem 0rem;
+    width: 9.5rem;
     text-align: left;
     text-transform: lowercase;
     display: inline-block;
+    font-size: 1.3rem;
 }
 
 .icon-container {

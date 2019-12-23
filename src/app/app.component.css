@@ -1,13 +1,14 @@
 .container {
     font-family: Montserrat;
     text-align: left;
-    width: 1300px;
-    height: 1000px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-left: -650px;
-    margin-top: -500px;
+    width: 100%;
+    margin-top: 15rem;
+}
+
+.inner-container {
+    width: 60%;
+    display: table;
+    margin: 0 auto;
 }
 
 .link-container {
@@ -15,6 +16,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-bottom: 8rem;
 }
 
 /* .item {
