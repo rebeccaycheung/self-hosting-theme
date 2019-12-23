@@ -1,16 +1,16 @@
 <div class="container">
   <h1>{{ finance }}</h1>
-  <div class="finance-container">
+  <div class="link-container">
     <app-link *ngFor="let finance of finances" [heading]=finance.name [icon]=finance.icon class="item"></app-link>
   </div>
 
   <h1>{{ media }}</h1>
-  <div class="media-container">
+  <div class="link-container">
     <app-link *ngFor="let media of medias" [heading]=media.name [icon]=media.icon class="item"></app-link>
   </div>
 
   <h1>{{ admin }}</h1>
-  <div class="admin-container">
+  <div class="link-container">
     <app-link *ngFor="let admin of admins" [heading]=admin.name [icon]=admin.icon class="item"></app-link>
   </div>
 </div>
